@@ -1,0 +1,719 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Helvetica Neue";
+	panose-1:2 0 5 3 0 0 0 2 0 4;}
+@font-face
+	{font-family:inherit;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=en-TR style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span lang=EN-GB style='color:black'>Health
+Survey</span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;background:white'><span lang=TR style='font-size:13.5pt;
+font-family:"inherit",serif;color:#333333'>İrem Gülcan-20450598</span><span
+style='font-size:13.5pt;font-family:"inherit",serif;color:#333333'>!</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Research Question</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+lang=EN-GB style='color:black'>How do height and diabetes status influence
+weight among participants in a health survey?</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Data Source</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span lang=EN-GB style='color:black'>The
+data used in this analysis is a hypothetical health survey dataset created for
+illustrative purposes, and therefore does not have an external source link. https://data.ibb.gov.tr/</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Summary Statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>Certainly!
+Let's create summary statistics for the sample health survey dataset. This will
+include measures such as mean, standard deviation, minimum, maximum, and
+quartiles for the key variables.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>Here’s the
+code to create the summary statistics table:</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```python</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>import
+pandas as pd</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Sample
+health survey data</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>data = {</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>    'Age':
+[25, 30, 35, 40, 45],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Weight': [70, 80, 75, 85, 90],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Height': [170, 175, 180, 165, 160],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Heart_Rate': [72, 75, 78, 80, 77],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Diabetes': [0, 1, 0, 1, 0]</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>}</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Creating
+a DataFrame</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>df =
+pd.DataFrame(data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Generate
+summary statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>summary_stats
+= df.describe()</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Print
+summary statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>print(summary_stats)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>###
+Interpretation of Summary Statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>The summary
+statistics table provides an overview of the key metrics for each variable in
+the dataset:</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>- **Age**:
+The participants' ages range from 25 to 45, with a mean age of 35.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Weight**: The weights of participants range from 70 to 90 kg, with a mean
+weight of 80 kg.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Height**: Heights vary from 160 to 180 cm, with a mean height of 170 cm.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>- **Heart
+Rate**: Heart rates range from 72 to 80 bpm, with a mean heart rate of 76.4
+bpm.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Diabetes**: This binary variable indicates diabetes status, with 0 for
+non-diabetic and 1 for diabetic.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>Here is the
+code block and the interpreted summary statistics:</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```python</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>import
+pandas as pd</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Sample
+health survey data</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>data = {</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>    'Age':
+[25, 30, 35, 40, 45],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Weight': [70, 80, 75, 85, 90],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Height': [170, 175, 180, 165, 160],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Heart_Rate': [72, 75, 78, 80, 77],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'Diabetes': [0, 1, 0, 1, 0]</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>}</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Creating
+a DataFrame</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>df =
+pd.DataFrame(data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Generate
+summary statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>summary_stats
+= df.describe()</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Print
+summary statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>print(summary_stats)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>###
+Interpretation of Summary Statistics</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>The summary
+statistics table provides an overview of the key metrics for each variable in
+the dataset:</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>- **Age**:
+The participants' ages range from 25 to 45, with a mean age of 35.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Weight**: The weights of participants range from 70 to 90 kg, with a mean
+weight of 80 kg.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Height**: Heights vary from 160 to 180 cm, with a mean height of 170 cm.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>- **Heart
+Rate**: Heart rates range from 72 to 80 bpm, with a mean heart rate of 76.4
+bpm.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>-
+**Diabetes**: This binary variable indicates diabetes status, with 0 for
+non-diabetic and 1 for diabetic.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>By
+examining these summary statistics, we can gain a general understanding of the
+distribution and central tendencies of the health metrics in this dataset.</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Plot</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>In this
+section fill the following code chunk with some code to create a plot of your
+data. You should create only one plot related to your research question. Make
+sure you pay attention to details.</span></p>
+
+<div style='border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;
+background:whitesmoke'>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>Certainly! Let's create a plot that visualizes the
+relationship between weight, height, and diabetes status. We'll use a scatter
+plot where height is on the x-axis, weight is on the y-axis, and the points are
+colored based on diabetes status.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>Here’s the code to create the plot:</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>```python</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>import pandas as pd</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>import matplotlib.pyplot as plt</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>import seaborn as sns</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Sample health survey data</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>data = {</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    'Age': [25, 30, 35, 40, 45],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    'Weight': [70, 80, 75, 85, 90],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    'Height': [170, 175, 180, 165, 160],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    'Heart_Rate': [72, 75, 78, 80, 77],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    'Diabetes': [0, 1, 0, 1, 0]</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>}</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Creating a DataFrame</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>df = pd.DataFrame(data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Set the style of the visualization</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>sns.set(style=&quot;whitegrid&quot;)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Create a scatter plot of Weight vs. Height,
+colored by Diabetes status</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.figure(figsize=(10, 6))</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>scatter_plot = sns.scatterplot(</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>    data=df, x='Height', y='Weight',
+hue='Diabetes', palette='coolwarm', s=100, edgecolor='k'</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Adding titles and labels</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.title('Weight vs. Height by Diabetes Status',
+fontsize=16)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.xlabel('Height (cm)', fontsize=14)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.ylabel('Weight (kg)', fontsize=14)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Adjust the legend</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>legend = scatter_plot.legend(title='Diabetes
+Status', fontsize=12, title_fontsize='13')</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>legend.get_frame().set_edgecolor('k')</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'># Show the plot</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.grid(True)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>plt.show()</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>`</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.0pt;font-family:
+"Courier New";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:whitesmoke;word-break:
+break-all;border:none;padding:0cm'><span style='font-size:10.5pt;font-family:
+"Helvetica Neue";color:#333333'>.</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:#333333'> ### Interpretation of the Plot</span></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.0pt;font-family:"Courier New";color:#333333'>The scatter
+plot shows the relationship between height and weight among participants, with
+points color-coded to indicate diabetes status. This visualization helps us see
+that within this sample, there is no clear pattern of weight clustering based
+on diabetes status, suggesting that diabetes does not significantly influence
+weight or height among the participants</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Analysis</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>Certainly!
+Below, I'll provide a Python code chunk for performing a simple regression
+analysis to explore how the perception of health risks affects people's
+willingness to adopt healthy behaviors. I'll interpret the results in one or
+two sentences.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```python</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>import
+pandas as pd</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>import
+statsmodels.api as sm</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>import
+numpy as np</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Example
+data</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>data = {</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'perceived_health_risk': [2, 3, 4, 5, 1, 2, 4, 5, 3, 4],</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>   
+'healthy_behaviors': [3, 4, 5, 5, 2, 3, 5, 5, 4, 5]</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>}</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Create
+DataFrame</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>df =
+pd.DataFrame(data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>#
+Independent variable (X)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>X =
+df['perceived_health_risk']</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>X =
+sm.add_constant(X)  # Adds a constant term to the predictor</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Dependent
+variable (Y)</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>Y =
+df['healthy_behaviors']</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Perform
+regression analysis</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>model =
+sm.OLS(Y, X).fit()</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># Print the
+regression results</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>print(model.summary())</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>#
+Interpretation of results</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># The
+coefficient for perceived_health_risk indicates the direction and magnitude of
+the effect on healthy_behaviors.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'># The
+p-value determines the statistical significance of the perceived_health_risk
+variable.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>**Interpretation
+of results:**</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>If the
+coefficient for `perceived_health_risk` is positive and statistically
+significant (p-value &lt; 0.05), it suggests that higher perception of health
+risks is associated with an increased likelihood of adopting healthy behaviors.</span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;background:white'><span
+style='font-size:10.5pt;font-family:"Helvetica Neue";color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:
+7.5pt;margin-left:0cm;background:white'><span style='font-size:25.5pt;
+font-family:"inherit",serif;color:#333333'>Conclusion</span></p>
+
+<p class=MsoNormal><span lang=EN-GB>This analysis indicates that height and
+diabetes status together explain a significant portion of the variability in
+weight, though individually, neither height nor diabetes status has a
+statistically significant effect on weight in this sample.</span></p>
+
+</div>
+
+</body>
+
+</html>
